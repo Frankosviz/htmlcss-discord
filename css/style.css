@@ -1,7 +1,15 @@
-* {
+/* reset */
+
+* {  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: var(--color-scondary);
+    color: black;
 }
 
 :root {
@@ -10,6 +18,13 @@
 	--color-header-bg: #255ee9;
 	--color-section-bg: #f6f6f6;
 	--color-contrast: #aebbe7;
+}
+
+/* header */
+
+header {
+    background-color: var(--color-header-bg);
+    color: white;
 }
 
 #hero{
@@ -22,41 +37,58 @@ ul {
     list-style: none;
 }
 
-body {
-    font-family: "Noto Sans", sans-serif;
-    background-color: var(--color-scondary);
-    color: black;
-}
-
-/* main */
-
-.section-bg{
-    background-color:var(--color-section-bg);
-}
-
-header {
-    background-color: var(--color-header-bg);
+li > a {
     color: white;
+    padding: 20px;
+    text-decoration: none;
 }
 
-/* utility */
+.small-container > h1 {
+    font-size: 50px;
+}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding:10px;
+.sottotitolo {
+    font-size: 20px;
+}
+
+nav > a {
+    color: white;
 }
 
 .small-container{
     max-width: 800px;
     margin:0 auto; 
-    text-align: center; 
+    text-align: center;
 }
 
-/* utility-flex */
+#access {
+    color: black;
+    background-color: var(--color-section-bg);
 
-.d-flex{
-    display: flex;
+}
+
+#mac-dwnld {
+    color: black;
+    background-color: var(--color-section-bg);
+    font-size: 20px;
+    margin: 20px;  
+}
+
+#open-disc {
+    margin: 20px;
+    line-height: 100px;
+    color: var(--color-section-bg);
+    background-color: black;
+    font-size: 20px;   
+}
+
+
+
+
+/* main */
+
+.section-bg {
+    background-color:var(--color-section-bg);
 }
 
 .left {
@@ -65,6 +97,31 @@ header {
 
 .right {
     width: 40%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:10px;
+}
+
+/* utility */
+
+.pills-container {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* utility-flex */
+
+.d-flex {
+    display: flex;
 }
 
 .row-reverse {
