@@ -45,6 +45,7 @@ li > a {
 
 .small-container > h1 {
     font-size: 50px;
+    padding-bottom: 30px;
 }
 
 .sottotitolo {
@@ -59,6 +60,7 @@ nav > a {
     max-width: 800px;
     margin:0 auto; 
     text-align: center;
+    padding-top: 150px;
 }
 
 #access {
@@ -122,6 +124,10 @@ nav > a {
 
 .d-flex {
     display: flex;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .row-reverse {
