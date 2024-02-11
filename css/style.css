@@ -107,6 +107,50 @@ nav > a {
     padding:10px;
 }
 
+.small-title {
+    padding-top: 10px;
+    font-size: 45px;
+}
+
+.right > p {
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight:400;
+}
+
+#centered {
+    text-align: center;
+}
+
+#technology-p {
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight:400;
+    text-align: center;
+}
+
+#big-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container > h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.stars {
+    max-width: 1000px;
+    background-image: url("../img/stars.svg");
+    background-size: 
+}
+
 /* utility */
 
 .pills-container {
@@ -115,6 +159,28 @@ nav > a {
     padding: 10px;
     text-decoration: none;
 }
+
+.padding-top-15{
+    padding-top: 15px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.padding-top-150 {
+    padding-top: 150px;
+}
+
+
 
 
 
