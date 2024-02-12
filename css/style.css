@@ -69,11 +69,19 @@ nav > a {
 
 }
 
-#mac-dwnld {
+#mac-dwnld-1 {
     color: black;
     background-color: var(--color-section-bg);
     font-size: 20px;
     margin: 20px;  
+}
+
+#mac-dwnld-2 {
+    color: white;
+    background-color: #7289DA;
+    font-size: 20px;
+    margin: 20px;
+
 }
 
 #open-disc {
@@ -82,6 +90,11 @@ nav > a {
     color: var(--color-section-bg);
     background-color: black;
     font-size: 20px;   
+}
+
+.mac-center {
+    text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -136,19 +149,30 @@ nav > a {
     width: 100%;
 }
 
-.container > h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.stars > h3 {
     text-align: center;
-    font-size: 30px;
+    height: 50px;
+    font-size: 27px;
 }
 
 .stars {
-    max-width: 1000px;
+    margin: 0 auto;
+    max-width: 800px;
     background-image: url("../img/stars.svg");
-    background-size: 
+    background-position: top;
+}
+
+#channel {
+    background-color: #F6F6F6;
+}
+
+#technology {
+    background-color: #F6F6F6;
+}
+
+#call-to-action {
+    background-color: #F6F6F6;
+    padding: 100px;
 }
 
 /* utility */
@@ -180,6 +204,11 @@ nav > a {
     padding-top: 150px;
 }
 
+.wawes-layer {
+    color: rgba(155,155,155,0.5);
+    background-image: url("../img/wave.svg");
+}
+
 
 
 
@@ -196,8 +225,8 @@ nav > a {
     flex-direction: column;
 }
 
-.row-reverse {
-    flex-direction: row-reverse;
+.row {
+    flex-direction: row;
 }
 
 .space-between {
