@@ -20,6 +20,94 @@ body {
 	--color-contrast: #aebbe7;
 }
 
+/* utility */
+
+.border-top {
+    border-top: 1px solid var(--color-contrast);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.pills-container {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.padding-top-15{
+    padding-top: 15px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.padding-top-150 {
+    padding-top: 150px;
+}
+
+.wawes-layer {
+    color: rgba(155,155,155,0.5);
+    background-image: url("../img/wave.svg");
+}
+
+/* utility-flex */
+
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+    align-content: center;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-end {
+    justify-content: end; 
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
 /* header */
 
 header {
@@ -81,7 +169,6 @@ nav > a {
     background-color: #7289DA;
     font-size: 20px;
     margin: 20px;
-
 }
 
 #open-disc {
@@ -102,6 +189,9 @@ nav > a {
 
 /* main */
 
+section {
+    padding-bottom: 150px;
+}
 .section-bg {
     background-color:var(--color-section-bg);
 }
@@ -172,7 +262,6 @@ nav > a {
 
 #call-to-action {
     background-color: #F6F6F6;
-    padding: 100px;
 }
 
 /* footer */
@@ -198,6 +287,7 @@ footer ul > li {
 .footer-title {
     padding-left: 28px;
 }
+
 footer {
     background-color: var(--color-primary);
 }
@@ -207,38 +297,16 @@ footer {
     padding: 10px;
 }
 
-/* utility */
+#pills-container-violet {
+    color: white;
+    background-color: #7289DA;
+    font-size: 20px;
+    margin: 20px;    
+}
 
-.pills-container {
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px;
+#pills-container-violet > a {
     text-decoration: none;
-}
-
-.padding-top-15{
-    padding-top: 15px;
-}
-
-.padding-top-30 {
-    padding-top: 30px;
-}
-
-.padding-top-50 {
-    padding-top: 50px;
-}
-
-.padding-top-100 {
-    padding-top: 100px;
-}
-
-.padding-top-150 {
-    padding-top: 150px;
-}
-
-.wawes-layer {
-    color: rgba(155,155,155,0.5);
-    background-image: url("../img/wave.svg");
+    color: white;
 }
 
 
@@ -247,30 +315,7 @@ footer {
 
 
 
-/* utility-flex */
 
-.d-flex {
-    display: flex;
-}
 
-.column {
-    flex-direction: column;
-}
 
-.row-reverse {
-    flex-direction: row-reverse;
-}
-
-.row {
-    flex-direction: row;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.align-items-center {
-    align-items: center;
-    align-content: center;
-}
 
