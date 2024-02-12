@@ -175,6 +175,38 @@ nav > a {
     padding: 100px;
 }
 
+/* footer */
+
+#place-to-speak {
+    font-size: 30px;
+    color: var(--color-contrast);
+}
+
+.white-clr {
+    color: white;
+    padding-top: 10px;
+}
+
+footer ul > li:first-child {
+    color: var(--color-contrast);
+}
+
+footer ul > li {
+    padding: 10px;
+}
+
+.footer-title {
+    padding-left: 28px;
+}
+footer {
+    background-color: var(--color-primary);
+}
+
+.mini-logo {
+    color: white;
+    padding: 10px;
+}
+
 /* utility */
 
 .pills-container {
@@ -223,6 +255,10 @@ nav > a {
 
 .column {
     flex-direction: column;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 .row {
